@@ -71,8 +71,8 @@
             display-name = "NUMBER";
             bindings = <
 &kp ESC    &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                                         &mmv MOVE_UP              &kp N6           &kp N7           &kp N8           &kp N9           &kp N0    &kp BSPC
-&kp LCTRL  &kp F1 &kp F2 &kp F3   &kp F4   &kp F5                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &kp DOWN         &kp UP           &kp RIGHT        &kp HOME  &kp PG_UP
-&kp LSHFT  &kp F6 &kp F7 &kp F8   &kp F9   &kp F10   &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
+&kp LCTRL  &kp F1 &kp F2 &kp F3   &kp F4   &kp F5                  &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN  &kp UP    &kp RIGHT &kp PIPE &kp GRAVE
+&kp LSHFT  &kp F6 &kp F7 &kp F8   &kp F9   &kp F10   &kp C_MUTE                    &mmv MOVE_DOWN                   &kp F11   &kp F12   &kp LBRC  &kp RBRC  &kp BSLH &kp TILDE
                        &mo 3    &trans     &kp SPACE                                                                          &kp RET          &kp INS          &kp RALT
             >;
 
@@ -96,7 +96,7 @@
             bindings = <
 &studio_unlock  &kp EXCL  &kp AT    &kp HASH  &kp DLLR &kp PRCNT                                       &mmv MOVE_UP                     &kp KP_N7 &kp KP_N8  &kp KP_N9  &kp LPAR  &kp RPAR  &kp BSPC
 &trans          &kp CARET &kp AMPS  &kp ASTRK &kp LPAR &kp RPAR                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp KP_N4 &kp KP_N5  &kp KP_N6  &kp PLUS  &kp ASTRK &kp GRAVE
-&trans          &trans  &trans &out OUT_USB &out OUT_USB   &trans  &kp C_MUTE               &mmv MOVE_DOWN                   &kp KP_N1 &kp KP_N2  &kp KP_N3  &kp MINUS &kp FSLH  &kp TILDE
+&trans          &trans  &trans &out OUT_USB &out OUT_BLE   &trans  &kp C_MUTE               &mmv MOVE_DOWN                   &kp KP_N1 &kp KP_N2  &kp KP_N3  &kp MINUS &kp FSLH  &kp TILDE
                                        &trans       &trans     &trans                                                                   &kp RET   &kp KP_N0  &kp EQUAL
             >;
 
@@ -107,8 +107,8 @@
             display-name = "media";
             bindings = <
 &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                                        &mmv MOVE_UP                     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&sys_reset  &kp C_VOL_UP &kp C_BRI_UP &rgb_ug RGB_EFF &rgb_ug RGB_BRI  &rgb_ug RGB_ON                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
-&bootloader &kp C_VOL_DN &kp C_BRI_DN &rgb_ug RGB_EFR &rgb_ug RGB_BRD  &rgb_ug RGB_OFF   &rgb_ug RGB_SPI            &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
+&trans      &kp C_VOL_UP &kp C_BRI_UP &rgb_ug RGB_EFF &rgb_ug RGB_BRI  &rgb_ug RGB_ON                        &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &bootloader  &mkp LCLK  &mkp MCLK    &mkp RCLK   &kp PRINTSCREEN  &kp F12
+&trans      &kp C_VOL_DN &kp C_BRI_DN &rgb_ug RGB_EFR &rgb_ug RGB_BRD  &rgb_ug RGB_OFF   &rgb_ug RGB_SPI            &mmv MOVE_DOWN                   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                                        &trans       &trans     &trans                                                                   &trans       &trans     &trans
             >;
 
